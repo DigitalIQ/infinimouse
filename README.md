@@ -2,21 +2,22 @@
 
 _Forked from @angel333 - bugfixed and extended by myself_
 
-If you move mouse to one border, it will come back from the other. It's like PacMan with the cursor.
+If you move the cursor to one border, it will come back from the other side. It's like PacMan.
 
 Works for multiple screens too, but will have issues if the screen layout doesn't make a perfect rectangle (e.g. for different resolutions).
 
 
 ## Settings
 
-Settings are hardcoded in the script. By default, only left and right borders are used. Also the main loop delay is hardcoded.
+By default, only left and right borders are enabled. The main loop delay is set on default by 50ms.
 
 Via tray icon context menu you can set the following:
 - Enable/disable left, right, top and bottom border
-- Enable/disable InfiniMouse
-- Restart and exit InfiniMouse
+- Change the Delay of catching the cursor at the borders and beam it to the other side
+- Enable/disable InfiniMouse (it's like pausing it)
+- If InfiniMouse is installed you're able to uninstall it from here
 
-Border settings will be stored in C:\Users\[your username]\AppData\Roaming\InfiniMouse\settings.ini after the first change of the settings via tray icon context menu. The saved settings are set at the next time InfiniMouse will be run.
+Border settings will be stored in C:\Users\[your username]\AppData\Roaming\InfiniMouse\settings.ini after the first change of the settings via tray icon context menu. The saved settings will be set at the next time InfiniMouse is executed.
 
 ## Installation
 
@@ -25,12 +26,17 @@ Border settings will be stored in C:\Users\[your username]\AppData\Roaming\Infin
 - Press F7 or click Tools > Build
   - This creates an infinimouse.exe file in the same folder of the infinimouse.au3 file
 - Run the infinimouse.exe file
-  - You'll see the tray icon :)
+  - You'll be asked if you want to install InfiniMouse persitant or run it as a portable app.
+  - You'll see the tray icon with its settings menu :)
 
 ## Known issues
 (which I'll maybe fix in a later version)
 
 - [ ] _Is there something? Let me know!_
+- [ ] Settings.ini will be stored always in the AppData folder, even though you start the program without installing it as a portable app. Storing the settings.ini should be stored in the workfolder when you run it portable.
+- [x] Settings are not hardcoded anymore or can be at least changed.
+- [x] Fixing the bug that cause problems with catching the cursor when the screen size changes (e.g. by attaching/detaching additional displays.
+- [x] If the installation process fails for whatever reason, the already created files will be deleted.
 
 ## License
 
