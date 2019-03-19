@@ -2,9 +2,9 @@
 
 _Forked from @angel333 - bugfixed and extended by myself_
 
-If you move the cursor to one border, it will come back from the other side. It's like PacMan.
+If you move the cursor to one screen border, it will come back from the other side. It's like PacMan.
 
-Works for multiple screens too, but will have issues if the screen layout doesn't make a perfect rectangle (e.g. for different resolutions).
+Works for multiple screens too, but will have issues if the screen layout doesn't make a perfect rectangle (e.g. for different screen resolutions).
 
 
 ## Settings
