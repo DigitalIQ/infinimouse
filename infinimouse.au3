@@ -228,6 +228,7 @@ Func _Uninstall()
 	DirRemove($INSTALL_SETTINGS_DIR_PATH, $DIR_REMOVE)
 	FileDelete($sStartupDirLink)
 	MsgBox($MB_SYSTEMMODAL, $PROGRAM_NAME & " - Deinstallation", "Deinstallation finished." & @CRLF & @CRLF & "Program files, settings and startup link deleted.")
+	Exit
 EndFunc
 
 
