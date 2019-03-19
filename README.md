@@ -17,7 +17,7 @@ Via tray icon context menu you can set the following:
 - Enable/disable InfiniMouse (it's like pausing it)
 - If InfiniMouse is installed you're able to uninstall it from here
 
-Border settings will be stored in C:\Users\[your username]\AppData\Roaming\InfiniMouse\settings.ini after the first change of the settings via tray icon context menu. The saved settings will be set at the next time InfiniMouse is executed.
+Border settings will be stored in C:\Users\\[your username]\AppData\Roaming\InfiniMouse\settings.ini after the first change of the settings via tray icon context menu. The saved settings will be set at the next time InfiniMouse is executed.
 
 ## Installation
 
@@ -33,7 +33,7 @@ Border settings will be stored in C:\Users\[your username]\AppData\Roaming\Infin
 (which I'll maybe fix in a later version)
 
 - [ ] _Is there something? Let me know!_
-- [ ] Settings.ini will be stored always in the AppData folder, even though you start the program without installing it as a portable app. Storing the settings.ini should be stored in the workfolder when you run it portable.
+- [ ] Settings.ini is stored always in the AppData folder, even though you start the program without installing it as a portable app. Storing the settings.ini should be stored in the workfolder when you run it portable.
 - [x] Settings are not hardcoded anymore or can be at least changed.
 - [x] Fixing the bug that cause problems with catching the cursor when the screen size changes (e.g. by attaching/detaching additional displays.
 - [x] If the installation process fails for whatever reason, the already created files will be deleted.
